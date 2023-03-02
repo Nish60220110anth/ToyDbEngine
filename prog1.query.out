@@ -1,0 +1,18 @@
+create_table(mytab)
+t1 = load_table(mytab)
+add_attribute mytab int a
+add_attribute mytab string b
+save_table(t1)
+create_table(mytab2)
+t2 = load_table(mytab2)
+add_attribute mytab2 int a
+add_attribute mytab2 string b
+add_attribute mytab2 string c
+save_table(t2)
+create_table(mytab3)
+t3 = load_table(mytab3)
+add_attribute mytab3 int a1
+add_attribute mytab3 string b1
+add_attribute mytab3 string c1
+add_attribute mytab3 int d1
+save_table(t3)

@@ -1,0 +1,6 @@
+t1 = load_table(mytab)
+insert_into(t1,"(12,"kalidas")")
+save_table(t1)
+t1 = load_table(mytab)
+insert_into(t1,"(13,"abcd")")
+save_table(t1)

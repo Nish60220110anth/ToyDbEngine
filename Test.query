@@ -1,0 +1,17 @@
+create table mytab 2
+int a
+float b
+insert into mytab (12,23.4)
+create table mytab2 5
+int a
+float b
+date d1
+int b4
+float sx
+insert into mytab (45,78)
+insert into mytab2 (4,5,6,7,8,9)
+select * from mytab2
+select 1 from mytab
+insert into mytab (89,90)
+insert into mytab (32,67)
+select 4 from mytab

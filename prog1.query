@@ -1,0 +1,12 @@
+create table mytab 2 
+int a 
+string b
+create table mytab2 3 
+int a 
+string b
+string c
+create table mytab3 4
+int a1
+string b1
+string c1
+int d1

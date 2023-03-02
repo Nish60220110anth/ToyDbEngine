@@ -1,0 +1,31 @@
+create_table(mytab)
+t1 = load_table(mytab)
+add_attribute mytab int a
+add_attribute mytab float b
+save_table(t1)
+t1 = load_table(mytab)
+insert_into(t1,"(12,23.4)")
+save_table(t1)
+create_table(mytab2)
+t2 = load_table(mytab2)
+add_attribute mytab2 int a
+add_attribute mytab2 float b
+add_attribute mytab2 date d1
+add_attribute mytab2 int b4
+add_attribute mytab2 float sx
+save_table(t2)
+t1 = load_table(mytab)
+insert_into(t1,"(45,78)")
+save_table(t1)
+t2 = load_table(mytab2)
+insert_into(t2,"(4,5,6,7,8,9)")
+save_table(t2)
+fetch mytab2 *
+fetch mytab 1
+t1 = load_table(mytab)
+insert_into(t1,"(89,90)")
+save_table(t1)
+t1 = load_table(mytab)
+insert_into(t1,"(32,67)")
+save_table(t1)
+fetch mytab 4
