@@ -74,16 +74,11 @@ fetch mytab 4
 
 > Tables are stored as csv files in `./table` folder
 >
-> Logs are provided for each run ( few example logs are provided in the directory )
+> Logs are provided for each run
 >
 > Intermediate code for the given query is written in `<query-file_name>.out` in the working directory.
+> example : [query](https://github.com/Nish60220110anth/ToyDbEngine/blob/main/prog1.query) and [query intermediate](https://github.com/Nish60220110anth/ToyDbEngine/blob/main/prog1.query.out)
 
 ## Note
 
-1. add attribute for a table command must succeed the command which created the table
-
-## Future
-
-> No future for this repo
->
-> It remains untouched and remains unused 😃.
+add attribute for a table command must succeed the command which created is used to create the table for which we need to add attribute
