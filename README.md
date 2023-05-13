@@ -4,10 +4,12 @@ Toy database engine with custom commands
 
 ## Commands supported
 
-1. create table `<table-name>`
-2. `<col-type> ` `<col-name>` ( for adding attributes )
-3. select * from `<table-name>`
-4. insert into `<table-name>` (`<value>`)
+|Action|Syntax|Note|
+|----|----|----|
+|to create table|create table `<table-name>`|None| 
+|to add column|`<col-type> ` `<col-name>`|Added to recently created table|
+|select rows|select * from `<table-name>`|None|
+|insert row|insert into `<table-name>` (`<value>`)|None|
 
 ## Examples
 
@@ -69,6 +71,9 @@ save_table(t1)
 fetch mytab 4
 
 ```
+
+## Tech Stack
+Only Java
 
 ## Details
 
